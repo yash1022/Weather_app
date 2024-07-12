@@ -1,4 +1,4 @@
-{
+{  "homepage": "https://yash1022.github.io/weather_app",
   "name": "project_4",
   "version": "0.1.0",
   "private": true,
@@ -34,5 +34,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+
+
+      "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+        "start": "react-scripts start",
+          "build": "react-scripts build"}
+
+  
 }
